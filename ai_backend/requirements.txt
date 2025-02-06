@@ -1,0 +1,6 @@
+fastapi
+pydantic
+transformers
+faiss-cpu
+mysql-connector-python
+uvicorn
