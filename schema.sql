@@ -1,0 +1,40 @@
+CREATE TABLE college_menu_items (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    label VARCHAR(255) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    module VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE `groups` (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    type VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE academic_term (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE v4_ams_subject (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    code VARCHAR(255) NOT NULL,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE department (
+    deptID INT AUTO_INCREMENT PRIMARY KEY,
+    deptName VARCHAR(255) NOT NULL,
+    departmentDesc VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE program (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE course_type (
+    courseTypeID INT AUTO_INCREMENT PRIMARY KEY,
+    typeName VARCHAR(255) NOT NULL
+);
