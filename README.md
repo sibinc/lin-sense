@@ -2,7 +2,7 @@
 
 ## Objective
 
-Develop an industry-standard AI-powered semantic search that enables intelligent, typo-tolerant, and context-aware menu navigation in our academic management system. The AI will dynamically process user queries, extract structured data, and provide accurate menu suggestions while maintaining scalability and adaptability to future changes.
+Develop an industry standard AI-powered semantic search that enables intelligent, typo-tolerant, and context-aware menu navigation in our academic management system. The AI will dynamically process user queries, extract structured data, and provide accurate menu suggestions while maintaining scalability and adaptability to future changes.
 
 ## System Overview
 
